@@ -11,15 +11,19 @@
 // return - new length  of array
 //               0       1     2       3       4
 let names = ["chinmay","ram","sham","sachin","sumit"]
+
+console.log(names)
+console.log("push operation: Add new element at the end of the array")
 let q1 = names.push("sarika")
-console.log(q1)
+console.log("New Array Length: "+q1)
 console.log(names)
 
 // unshift()
 //                0         1          2          3
 let country = ["india","srilanka","pakistan","australia"]
+console.log("unshift operation: Add new element at the start of the array")
 let q2 = country.unshift('china')
-console.log(q2)
+console.log("New Array Length: "+q2)
 console.log(country)
 
 // pop()
